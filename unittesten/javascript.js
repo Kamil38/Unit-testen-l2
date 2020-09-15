@@ -22,12 +22,12 @@ function Voorraad(item, aantal) {
     voorraad = voorraad  +1;
     
     }
-    this.verlaagMeerVoorraad = function () {
-    voorraad = voorraad  -5;
+    this.verlaagMeerVoorraad = function (minder) {
+    voorraad = voorraad  -minder;
     
     }
-    this.verhoogMeerVoorraad = function () {
-    voorraad = voorraad  +5;
+    this.verhoogMeerVoorraad = function (meer) {
+    voorraad = voorraad  +meer;
     
     }
 
